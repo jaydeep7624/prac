@@ -45,7 +45,7 @@ function sumOfDigitOfNumber(number){
 // console.log(sumOfDigitOfNumber(1234));
 
 
-
+    
 function secondLargestNumber(number){
     if(number.length<2){
         return -1;
