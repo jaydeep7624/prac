@@ -88,7 +88,7 @@ function PairExist(numbers,sum){
 // console.log("saa",secondLargestNumber([10,20,30,30]));
 // console.log("saa",secondLargestNumber([1,1,1,1,1]));
 // console.log("saa",PairExist([1,2,3],2));
-Jaydeep 
+ 
 
 function bubbleSort(array){
     for(let i=0;i<array.length-1;i++){
@@ -141,5 +141,28 @@ function quickSort(array){
     console.log(left,pivot,right);
     return [...quickSort(left),pivot,...quickSort(right)];
 }
-console.log("Quick Sort :",quickSort( [7, 2, 1, 6, 8, 5, 3, 4]));
+// console.log("Quick Sort :",quickSort( [7, 2, 1, 6, 8, 5, 3, 4]));
 
+function exactdiscountAmount(array,target){
+    let item=[];
+    if(array.length<=1){
+        return [];
+    }
+
+    for(let i=0;i<array.length-1;i++){
+        for(let j=i;j<array.length-1;j++){
+            console.log(j);
+            
+            if(array[i]+array[j]==target){
+                item.push([array[i],array[j]]);
+            }
+        }
+    }
+    const uniqueArr = Array.from(
+        new Set(item.map(JSON.stringify)),
+        JSON.parse
+    );
+      
+    return uniqueArr;
+}
+console.log("discount amount array is",exactdiscountAmount([1,2,1,3,2],4));
