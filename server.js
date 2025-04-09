@@ -122,24 +122,24 @@ function selectionSort(array){
 // console.log("selection sort :",selectionSort([10,20,12,2,21]));
 
 
-function quickSort(array){
-    // console.log("New Araay:",array);
-    if(array.length<=1){
-        return array;
-    }
-    const pivot = array[array.length-1];
-    let left=[];
-    let right = [];
-    for(let i=0;i<array.length-1;i++){
-        if(array[i]<pivot){
-            left.push(array[i]);
-        }
-        else{
-            right.push(array[i]);
-        }
-    } 
-    console.log(left,pivot,right);
-    return [...quickSort(left),pivot,...quickSort(right)];
-}
+// function quickSort(array){
+//     // console.log("New Araay:",array);
+//     if(array.length<=1){
+//         return array;
+//     }
+//     const pivot = array[array.length-1];
+//     let left=[];
+//     let right = [];
+//     for(let i=0;i<array.length-1;i++){
+//         if(array[i]<pivot){
+//             left.push(array[i]);
+//         }
+//         else{
+//             right.push(array[i]);
+//         }
+//     } 
+//     console.log(left,pivot,right);
+//     return [...quickSort(left),pivot,...quickSort(right)];
+// }
 console.log("Quick Sort :",quickSort( [7, 2, 1, 6, 8, 5, 3, 4]));
 
