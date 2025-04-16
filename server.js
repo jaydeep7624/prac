@@ -166,10 +166,7 @@ function exactdiscountAmount(array,target){
     return uniqueArr;
 }
 console.log("discount amount array is",exactdiscountAmount([1,2,1,3,2],4));
-<<<<<<< HEAD
-=======
 console.log("discount amount array is",exactdiscountAmount([1,2,1,3,2],4));
->>>>>>> main
 // console.log("discount amount array is",exactdiscountAmount([1,2,1,3,2],4));
 
 const data = [ [1, 'apple',200], [2, 'banana',300], [1, 'orange',400], [2, 'grape',100], [3, 'melon',200] ];
@@ -187,11 +184,8 @@ data.forEach(([key, value,price]) => {
   }
   item[key].push(value);
 });
-<<<<<<< HEAD
 // console.log(item)
-=======
 console.log(item)
->>>>>>> main
 
 
 const colors = ['red', 'blue', 'red', 'green', 'blue', 'blue'];
@@ -209,11 +203,8 @@ colors.forEach((item)=>{
     }
     color_with_count[item]++;
 })
-<<<<<<< HEAD
 // console.log(color_with_count);
-=======
 console.log(color_with_count);
->>>>>>> main
 
 const nums = [1, 3, 2, 3, 4, 3, 2, 1, 1, 1];
 /*
@@ -240,11 +231,8 @@ for(item in number_with_count){
        mostFrequest =Number(item);
    }
 }
-<<<<<<< HEAD
 // console.log(mostFrequest,maxCount);
-=======
 console.log(mostFrequest,maxCount);
->>>>>>> main
 
 const messyArray = [0, "apple", false, "", 42, null, "banana", undefined, NaN];
 // ["apple", 42, "banana"]
@@ -254,11 +242,8 @@ messyArray.forEach(item=>{
         array.push(item);
     } 
 })
-<<<<<<< HEAD
 // console.log(array) ;   
-=======
 console.log(array) ;   
->>>>>>> main
 
 const nested = [1, [2, [3, [4, [[5]],8]]]];
 function flattenArray(array){
@@ -278,13 +263,10 @@ function flattenArray(array){
 }
 
 
-<<<<<<< HEAD
 // console.log("Flat array",nested.flat(Infinity));
 // console.log("Flat array",flattenArray(nested));
-=======
 console.log("Flat array",nested.flat(Infinity));
 console.log("Flat array",flattenArray(nested));
->>>>>>> main
 
 const words = ['Apple', 'Banana', 'apple', 'ORANGE', 'banana', 'Orange'];
 // ['Apple', 'Banana', 'ORANGE']
@@ -298,11 +280,8 @@ words.forEach(item=>{
         word_array.push(loew_item)
     }
 })
-<<<<<<< HEAD
 // console.log(word_array);
-=======
 console.log(word_array);
->>>>>>> main
 
 const anagram_words = ['listen', 'silent', 'enlist', 'rat', 'tar', 'art', 'hello'];
 /*[
@@ -320,11 +299,8 @@ anagram_words.forEach(item=>{
     }
     anagram_item[new_item].push(new_item);
 })
-<<<<<<< HEAD
 // console.log(Object.values(anagram_item))
-=======
 console.log(Object.values(anagram_item))
->>>>>>> main
 
 
 // Find two stirng is Anagram Or not : 
@@ -336,11 +312,8 @@ function string_anagram(str1,str2){
     }
     return false;
 }
-<<<<<<< HEAD
 // console.log(string_anagram('hello','oellh'));
-=======
 console.log(string_anagram('hello','oellh'));
->>>>>>> main
 
 const str = "aabbcdeff";
 //  "c"
@@ -380,11 +353,8 @@ for(let i=0;i<number.length-1;i++){
         }
     }
 }
-<<<<<<< HEAD
 // console.log(array1)
-=======
 console.log(array1)
->>>>>>> main
 
 /*
 Input: nums = [0, 1, 0, 3, 12]
@@ -418,8 +388,6 @@ function rotateArray(array,k){
     return array    
 }
 console.log(rotateArray([1,2,3,4,5],4));
-<<<<<<< HEAD
-=======
 
 // Count No of occurences .
 function countOccurences(array){
@@ -577,4 +545,4 @@ console.log(longestCommonSuffix(['flower','tower','power'])); // Output: 'ower'
 // This Line I am Adding From GtHUb UI .Now this Line adding From Vscode Dev1 Branch .
 
 
->>>>>>> main
+// I am Adding THis LIne From Dev2
