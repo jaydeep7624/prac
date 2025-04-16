@@ -531,3 +531,4 @@ function longestCommonSuffix(array){
 console.log(longestCommonSuffix(['flower','tower','power'])); // Output: 'ower'
 
 // Lorem Ipsum is New Features : 
+// Jaydeep Makwana
