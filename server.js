@@ -529,5 +529,5 @@ function longestCommonSuffix(array){
     return suffix;
 }
 console.log(longestCommonSuffix(['flower','tower','power'])); // Output: 'ower'
-edited this file 
 
+// Lorem Ipsum is New Features : 
