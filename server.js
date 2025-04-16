@@ -166,6 +166,7 @@ function exactdiscountAmount(array,target){
     return uniqueArr;
 }
 console.log("discount amount array is",exactdiscountAmount([1,2,1,3,2],4));
+console.log("discount amount array is",exactdiscountAmount([1,2,1,3,2],4));
 // console.log("discount amount array is",exactdiscountAmount([1,2,1,3,2],4));
 
 const data = [ [1, 'apple',200], [2, 'banana',300], [1, 'orange',400], [2, 'grape',100], [3, 'melon',200] ];
