@@ -540,8 +540,5 @@ function longestCommonSuffix(array){
 }
 console.log(longestCommonSuffix(['flower','tower','power'])); // Output: 'ower'
 
-<<<<<<< HEAD
 // I Am Alos Add This Lin 
-=======
 // Hello This IS Added from Dev1 BRanch 
->>>>>>> dev1
